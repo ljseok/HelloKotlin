@@ -1,5 +1,6 @@
 package com.example.hellokotlin
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -13,9 +14,20 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-       val btnHello = findViewById<Button>(R.id.btn_hello)
-        btnHello.setOnClickListener {
-            Toast.makeText(this@MainActivity,"HelloKotlin",Toast.LENGTH_LONG).show()
+        val btnjava = findViewById<Button>(R.id.btn_java)
+        val btnkotlin = findViewById<Button>(R.id.btn_kotlin)
+
+        var intent : Intent
+
+
+        btnjava.setOnClickListener {
+            intent = Intent(this@MainActivity,BmijavaActivity::class.java)
+            startActivity(intent)
+        }
+
+        btnkotlin.setOnClickListener {
+            intent = Intent(this@MainActivity,BmikotlinActivity::class.java)
+            startActivity(intent)
         }
     }
 }
