@@ -28,4 +28,25 @@
         app:layout_constraintStart_toStartOf="@+id/btn_java"
         app:layout_constraintTop_toBottomOf="@+id/btn_java"
         app:layout_constraintVertical_bias="0.229" />
+
+    <Button
+        android:id="@+id/btnVariJava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="92dp"
+        android:text="variablejava"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_kotlin" />
+
+    <Button
+        android:id="@+id/btnVarikotlin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:text="variablekotlin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnVariJava" />
 </androidx.constraintlayout.widget.ConstraintLayout>
