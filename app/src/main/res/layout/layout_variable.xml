@@ -36,4 +36,15 @@
         android:text="ClickMe"
         app:layout_constraintStart_toStartOf="@+id/txt_countbtnClicks"
         app:layout_constraintTop_toBottomOf="@+id/txt_countbtnClicks" />
+
+    <TextView
+        android:id="@+id/txtElaspedTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:text="ElaspedTime"
+        app:layout_constraintEnd_toEndOf="@+id/btnClickme"
+        app:layout_constraintTop_toBottomOf="@+id/btnClickme" />
 </androidx.constraintlayout.widget.ConstraintLayout>
