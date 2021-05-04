@@ -19,25 +19,35 @@ class MainActivity : AppCompatActivity() {
 
         val btnvarJava = findViewById<Button>(R.id.btnVariJava)
         val btnvarkotlin = findViewById<Button>(R.id.btnVarikotlin)
+        val btnflowcontroljava = findViewById<Button>(R.id.btnFlowControljava)
+        val btnflowcontrolkotlin = findViewById<Button>(R.id.btnflocControlkotlin)
 
 
         btnjava.setOnClickListener {
-           // intent = Intent(this@MainActivity,BmikotlinActivity::class.java)
+           intent = Intent(this@MainActivity,BmikotlinActivity::class.java)
             startActivity(intent)
         }
 
         btnkotlin.setOnClickListener {
-           // intent = Intent(this@MainActivity,BmikotlinActivity::class.java)
+           intent = Intent(this@MainActivity,BmikotlinActivity::class.java)
             startActivity(intent)
         }
 
         btnvarJava.setOnClickListener {
-            //intent = Intent(this@MainActivity,VariablejavaActivity::class.java)
+            intent = Intent(this@MainActivity,VariablejavaActivity::class.java)
             startActivity(intent)
         }
 
         btnvarkotlin.setOnClickListener {
-           // intent = Intent(this@MainActivity,VariablekotlinActivity::class.java)
+           intent = Intent(this@MainActivity,VariablekotlinActivity::class.java)
+            startActivity(intent)
+        }
+        btnflowcontroljava.setOnClickListener {
+            intent = Intent(this@MainActivity,FlowControljavaactivity::class.java)
+            startActivity(intent)
+        }
+        btnflowcontrolkotlin.setOnClickListener {
+            intent = Intent(this@MainActivity,FlowControlkotlinactivity::class.java)
             startActivity(intent)
         }
 

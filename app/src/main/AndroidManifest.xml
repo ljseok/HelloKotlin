@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.hellokotlin">
-<application
+
+    <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -9,24 +10,29 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HelloKotlin">
         <activity
-            android:name=".VariablekotlinActivity"
-            android:label="VariablekotlinActivity"/>
+            android:name=".FlowControlkotlinactivity"
+            android:label="flowcontrolkotlinactivity"></activity>
         <activity
-             android:name=".VariablejavaActivity"
-             android:label="VariablejavaActivity"/>
+            android:name=".FlowControljavaactivity"
+            android:label="flowcontroljavaactivity" />
+        <activity
+            android:name=".VariablekotlinActivity"
+            android:label="VariablekotlinActivity" />
+        <activity
+            android:name=".VariablejavaActivity"
+            android:label="VariablejavaActivity" />
         <activity
             android:name=".BmijavaActivity"
-            android:label="BmijavaActivity"/>
+            android:label="BmijavaActivity" />
         <activity
             android:name=".MainActivity"
-            android:label="Bmi calculation"/>
+            android:label="Bmi calculation" />
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+    </application>
 
-
-        </application>
 </manifest>

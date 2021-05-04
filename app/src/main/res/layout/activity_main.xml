@@ -49,4 +49,24 @@
         android:text="variablekotlin"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="@+id/btnVariJava" />
+
+    <Button
+        android:id="@+id/btnFlowControljava"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="96dp"
+        android:text="flowcontrol_java"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/btnVariJava"
+        app:layout_constraintStart_toStartOf="@+id/btnVariJava"
+        app:layout_constraintTop_toBottomOf="@+id/btnVariJava" />
+
+    <Button
+        android:id="@+id/btnflocControlkotlin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FlowcontrolKotlin"
+        app:layout_constraintEnd_toEndOf="@+id/btnVarikotlin"
+        app:layout_constraintStart_toStartOf="@+id/btnVarikotlin"
+        app:layout_constraintTop_toTopOf="@+id/btnFlowControljava" />
 </androidx.constraintlayout.widget.ConstraintLayout>
